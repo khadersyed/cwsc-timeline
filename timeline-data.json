@@ -108,6 +108,22 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+        "caption": "Statue of Liberty",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Statue_of_Liberty\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "10",
+        "day": "28",
+        "year": "1886"
+      },
+      "text": {
+        "headline": "Statue of Liberty",
+        "text": "<p>In 1865, de Laboulaye proposed creating a monument for the United States. The recent Union victory in the Civil War, which reaffirmed the United States' ideals of freedom and democracy, served as a platform for de Laboulaye to argue that honoring the United States would strengthen the cause for democracy in France. As the president of the French Anti-Slavery Society, de Laboulaye believed that the passage of the 13th Amendment (abolishing slavery in the U.S., 1865) was a milestone and it proved that justice and liberty for all was possible.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia",
         "caption": "Racial conflict in Forsyth County, Georgia",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia\">Wikipedia</a>"
