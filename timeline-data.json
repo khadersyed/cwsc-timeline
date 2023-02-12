@@ -60,6 +60,27 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
+        "caption": "Tulsa Race Massacre",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "5",
+        "day": "31",
+        "year": "1921"
+      },
+      "end_date": {
+        "month": "6",
+        "day": "11",
+        "year": "1921"
+      },
+      "text": {
+        "headline": "Tulsa Race Massacre",
+        "text": "<p>The Tulsa race aassacre is considered one the worst incidents of racial violence in American history. Mobs of white residents burned and destroyed more than 35 square blocks of the neighborhood—at the time one of the wealthiest Black communities in the United States, colloquially known as <b>Black Wall Street.</b></p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack",
         "caption": "United States Capitol Attack",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
