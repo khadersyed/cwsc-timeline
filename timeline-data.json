@@ -2,7 +2,7 @@
   "title": {
       "media": {
         "url": "https://www.newyorker.com/books/under-review/american-christianitys-white-supremacy-problem",
-        "caption": "Whitney Houston performing on her My Love is Your Love Tour in Hamburg.",
+        "caption": "Christianity, White Supremacy and Capitalism",
         "credit": "<a href='https://www.newyorker.com/'>New Yorker</a>"
       },
       "text": {
@@ -13,9 +13,9 @@
   "events": [
     {
       "media": {
-          "url": "https://ldhi.library.cofc.edu/exhibits/show/african_laborers_for_a_new_emp/pope_nicolas_v_and_the_portugu",
-          "caption": "Julie Hayden",
-          "credit": "<a href=\"https://flic.kr/p/2nVhbMy\">Flickr</a>"
+          "url": "https://en.wikipedia.org/wiki/Romanus_Pontifex",
+          "caption": "Romanus Pontifex",
+          "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
         },
       "start_date": {
           "month": "1",
