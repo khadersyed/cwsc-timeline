@@ -57,6 +57,22 @@
         "headline": "Julie Hayden",
         "text": "<p>Julia Hayden, was an American seventeen-year-old Black school teacher murdered by members of the White Man's League within days of starting a teaching position at a school for Black children in Tennessee.</p>"
       }
+    },
+    {
+      "media": {
+        "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack",
+        "caption": "United States Capitol Attack",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "1",
+        "day": "6",
+        "year": "2021"
+      },
+      "text": {
+        "headline": "January 6 United States Capitol Attack",
+        "text": "<p>Called to action by Trump, thousands of his supporters gathered in Washington, D.C., on January 5 and 6 to support his false claim that the 2020 election had been <i>stolen by emboldened radical-left Democrats</i> and to demand that Vice President Mike Pence and the Congress reject Biden's victory.</p>"
+      }
     }
   ]
 }
