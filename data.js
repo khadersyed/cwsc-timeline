@@ -7,7 +7,7 @@ var additionalOptions = {
 
 
 // http://timeline.knightlab.com/docs/json-format.html
-var timeline_json = $.getJson
+var timeline_json = $.getJSON('https://raw.githubusercontent.com/khadersyed/cwsc-timeline/initial_commit/timeline-data.json')
 // two arguments: the id of the Timeline container (no '#')
 // and the JSON object or an instance of TL.TimelineConfig created from
 // a suitable JSON object
