@@ -60,6 +60,22 @@
     },
     {
       "media": {
+        "url": "https://www.aol.com/news/black-1870-pins-worn-congress-230646304.html",
+        "caption": "Henry Truman",
+        "credit": "<a href=\"https://aol.com\">AOL</a>"
+      },
+      "start_date": {
+        "month": "3",
+        "day": "31",
+        "year": "1870"
+      },
+      "text": {
+        "headline": "Henry Truman",
+        "text": "<p>Henry Truman, a Black man, was shot and killed by Philadelphia Officer John Whiteside after being accused of shoplifting from a grocery store.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)",
         "caption": "Julie Hayden",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
