@@ -44,6 +44,22 @@
     },
     {
       "media": {
+        "url": "https://www.history.com/news/abraham-lincoln-black-resettlement-haiti",
+        "caption": "Emancipation Proclamation",
+        "credit": "<a href=\"https://history.com\">History Channel</a>"
+      },
+      "start_date": {
+        "month": "12",
+        "date": "31",
+        "year": "1862"
+      },
+      "text": {
+        "headline": "Lincoln wanted to end slavery—but wasn’t keen on integrating African Americans into US society",
+        "text": "<p>On the night of December 31, 1862, a day before he issued the final Emancipation Proclamation to effectively end slavery in America, President Abraham Lincoln signed a contract with Bernard Kock, an entrepreneur and Florida cotton planter. Their agreement: to use federal funds to relocate 5,000 formerly enslaved people from the United States to Île à Vache ('Cow Island'), a small, 20-square-mile island off the southwestern coast of Haiti.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
         "caption": "Emancipation Proclamation",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
