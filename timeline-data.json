@@ -1,46 +1,61 @@
 {
   "title": {
-      "media": {
-        "url": "https://www.newyorker.com/books/under-review/american-christianitys-white-supremacy-problem",
-        "caption": "Christianity, White Supremacy and Capitalism",
-        "credit": "<a href='https://www.newyorker.com/'>New Yorker</a>"
-      },
-      "text": {
-        "headline": "Christianity, Capitalism and White Supremacy - A Timeline<br/> 1455 - 2023",
-        "text": "<p>Documenting the history of White Supremacy and it's ties to Christianity and Capitalism.</p>"
-      }
+    "media": {
+      "url": "https://www.newyorker.com/books/under-review/american-christianitys-white-supremacy-problem",
+      "caption": "Christianity, White Supremacy and Capitalism",
+      "credit": "<a href='https://www.newyorker.com/'>New Yorker</a>"
+    },
+    "text": {
+      "headline": "Christianity, Capitalism and White Supremacy - A Timeline<br/> 1455 - 2023",
+      "text": "<p>Documenting the history of White Supremacy and it's ties to Christianity and Capitalism.</p>"
+    }
   },
   "events": [
     {
       "media": {
-          "url": "https://en.wikipedia.org/wiki/Romanus_Pontifex",
-          "caption": "Romanus Pontifex",
-          "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
-        },
+        "url": "https://en.wikipedia.org/wiki/Romanus_Pontifex",
+        "caption": "Romanus Pontifex",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+      },
       "start_date": {
-          "month": "1",
-          "day": "8",
-          "year": "1455"
+        "month": "1",
+        "day": "8",
+        "year": "1455"
       },
       "text": {
-          "headline": "Romanus Pontifex of 1455",
-          "text": "<p>This papal bull legally granted Portugal the right to enslave any and all people they encounter south of Cape Bojador, on the coast of Western Sahara.</p>"
+        "headline": "Romanus Pontifex of 1455",
+        "text": "<p>This papal bull legally granted Portugal the right to enslave any and all people they encounter south of Cape Bojador, on the coast of Western Sahara.</p>"
       }
     },
-   {
+    {
       "media": {
-          "url": "https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)",
-          "caption": "Julie Hayden",
-          "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
-        },
+        "url": "https://en.wikipedia.org/wiki/First_Africans_in_Virginia",
+        "caption": "First Africans in Virginia",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+      },
       "start_date": {
-          "month": "8",
-          "day": "22",
-          "year": "1874"
+        "month": "8",
+        "year": "1619"
       },
       "text": {
-          "headline": "Julie Hayden",
-          "text": "<p>Julia Hayden, was an American seventeen-year-old Black school teacher murdered by members of the White Man's League within days of starting a teaching position at a school for Black children in Tennessee.</p>"
+        "headline": "First Africans in Virginia",
+        "text": "<p>A group of <i>twenty and odd</i> captive enslaved persons originally from modern-day Angola landed at Old Point Comfort in Hampton, Virginia in late August 1619.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)",
+        "caption": "Julie Hayden",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "8",
+        "day": "22",
+        "year": "1874"
+      },
+      "text": {
+        "headline": "Julie Hayden",
+        "text": "<p>Julia Hayden, was an American seventeen-year-old Black school teacher murdered by members of the White Man's League within days of starting a teaching position at a school for Black children in Tennessee.</p>"
       }
     }
   ]
