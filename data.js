@@ -1,7 +1,7 @@
 // http://timeline.knightlab.com/docs/options.html
 var additionalOptions = {
     start_at_end: true,
-    default_bg_color: {r:0, g:0, b:0},
+    default_bg_color: {r:100, g:255, b:150},
     timenav_height: 250
 };
 
@@ -9,6 +9,6 @@ var additionalOptions = {
 // http://timeline.knightlab.com/docs/json-format.html
 $.getJSON('https://raw.githubusercontent.com/khadersyed/cwsc-timeline/initial_commit/timeline-data.json', function(json_data){
     console.log(json_data);
-    window.timeline = new TL.Timeline('timeline-embed', json_data);
+    window.timeline = new TL.Timeline('timeline-embed', json_data, additionalOptions);
 });
 

@@ -46,7 +46,7 @@
       "media": {
         "url": "https://www.history.com/news/abraham-lincoln-black-resettlement-haiti",
         "caption": "Resettlement of formerly enslaved people to Haiti",
-        "credit": "<a href=\"https://history.com\">History Channel</a>"
+        "credit": "<a href=\"https://www.history.com/news/abraham-lincoln-black-resettlement-haiti\">History Channel</a>"
       },
       "start_date": {
         "month": "12",
@@ -62,7 +62,7 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
         "caption": "Emancipation Proclamation",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Emancipation_Proclamation\">Wikipedia</a>"
       },
       "start_date": {
         "month": "1",
@@ -78,7 +78,7 @@
       "media": {
         "url": "https://www.aol.com/news/black-1870-pins-worn-congress-230646304.html",
         "caption": "Henry Truman",
-        "credit": "<a href=\"https://aol.com\">AOL</a>"
+        "credit": "<a href=\"https://www.aol.com/news/black-1870-pins-worn-congress-230646304.html\">AOL</a>"
       },
       "start_date": {
         "month": "3",
@@ -94,7 +94,7 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)",
         "caption": "Julie Hayden",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)\">Wikipedia</a>"
       },
       "start_date": {
         "month": "8",
@@ -108,9 +108,24 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia",
+        "caption": "Racial conflict in Forsyth County, Georgia",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "9",
+        "year": "1912"
+      },
+      "text": {
+        "headline": "Racial conflict in Forsyth County, Georgia",
+        "text": "<p>Bands of white men, known as Night Riders from Cherokee and other nearby counties threatened and intimidated Black inhabitants. These families either fled or were killed and their properties were stolen from them. Those that left, fled to Hall and Gwinnett Counties. Within the next four months, an estimated 98% of the blacks living in the county had left due to Night Rider threats, or were murdered.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
         "caption": "Tulsa Race Massacre",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Tulsa_race_massacre\">Wikipedia</a>"
       },
       "start_date": {
         "month": "5",
@@ -129,9 +144,25 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith",
+        "caption": "Lynching of Thomas Shipp and Abram Smith",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "8",
+        "day": "7",
+        "year": "1930"
+      },
+      "text": {
+        "headline": "Lynching of Thomas Shipp and Abram Smith",
+        "text": "<p>J. Thomas Shipp and Abraham S. Smith were young African-American men who were murdered in a spectacle lynching by a mob of thousands on August 7, 1930, in Marion, Indiana.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack",
         "caption": "United States Capitol Attack",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack\">Wikipedia</a>"
       },
       "start_date": {
         "month": "1",
