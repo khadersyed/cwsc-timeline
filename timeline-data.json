@@ -11,7 +11,23 @@
       }
   },
   "events": [
-  {
+    {
+      "media": {
+          "url": "https://ldhi.library.cofc.edu/exhibits/show/african_laborers_for_a_new_emp/pope_nicolas_v_and_the_portugu",
+          "caption": "Julie Hayden",
+          "credit": "<a href=\"https://flic.kr/p/2nVhbMy\">Flickr</a>"
+        },
+      "start_date": {
+          "month": "1",
+          "day": "8",
+          "year": "1455"
+      },
+      "text": {
+          "headline": "Romanus Pontifex of 1455",
+          "text": "<p>This papal bull legally granted Portugal the right to enslave any and all people they encounter south of Cape Bojador, on the coast of Western Sahara.</p>"
+      }
+    },
+   {
       "media": {
           "url": "https://www.flickr.com/photos/147039490@N04/52455117034/in/photolist-2nVhbMy-xuXKFY-oeJdrp-2gRyFmQ-oxCKz4-ovrcqX-oeENUv-7H4Hgb-2gRyE32-ouzUTE-ovSVEB-6MSmRk-24GJU5k-oeEBYm-xJUEu2-tngD4g-owjgL2-rqKFcP-oeZykn-x4he79-r8kygw-rq5enV-dCQCRk-ouNbXN-owzDMK-ouY9Rq-r9xVhw-ownAaC-otENpS-ou9Ffj-oeEc5f-5zt2gd-rqSo4v-ovjK92-9zrTx6-xfMkEZ-owexgC-rqSVc2-rr7kMP-ownFYw-tBeNS1-r8wStd-oumG3T-xfEw9E-owppxe-7djQLm-wZnNkj-ouqefw-oeJyii-qsW42j",
           "caption": "Julie Hayden",
@@ -26,7 +42,7 @@
           "headline": "Julie Hayden",
           "text": "<p>Julia Hayden, was an American seventeen-year-old Black school teacher murdered by members of the White Man's League within days of starting a teaching position at a school for Black children in Tennessee.</p>"
       }
-      },
+    },
     {
       "start_date": {
         "month": "8",
