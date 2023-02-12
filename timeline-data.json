@@ -44,6 +44,22 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
+        "caption": "Emancipation Proclamation",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "1",
+        "date": "1",
+        "year": "1863"
+      },
+      "text": {
+        "headline": "Emancipation Procalamation",
+        "text": "<p>This was a presidential proclamation and executive order issued by United States President Abraham Lincoln, during the Civil War. The Proclamation changed the legal status of more than 3.5 million enslaved African Americans in the secessionist Confederate states from enslaved to free.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)",
         "caption": "Julie Hayden",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
