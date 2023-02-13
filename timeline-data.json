@@ -197,6 +197,27 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott",
+        "caption": "Montgomery bus boycott",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Montgomery_bus_boycott\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "5",
+        "year": "1956"
+      },
+      "end_date": {
+        "month": "12",
+        "day": "20",
+        "year": "1956"
+      },
+      "text": {
+        "headline": "Montgomery bus boycott",
+        "text": "<p>The Montgomery bus boycott was a political and social protest campaign against the policy of racial segregation on the public transit system of Montgomery, Alabama. It was a foundational event in the civil rights movement in the United States.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack",
         "caption": "United States Capitol Attack",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack\">Wikipedia</a>"
