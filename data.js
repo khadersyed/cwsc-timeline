@@ -1,6 +1,8 @@
 // http://timeline.knightlab.com/docs/options.html
 var additionalOptions = {
+    hash_bookmark: true,
     font: "opensans-gentiumbook",
+    scale_factor: 1,
     timenav_height: 250
 };
 
