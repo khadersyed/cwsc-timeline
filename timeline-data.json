@@ -44,6 +44,20 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Zipporah_Potter_Atkins",
+        "caption": "Zipporah Potter Atkins",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Zipporah_Potter_Atkins\">Wikipedia</a>"
+      },
+      "start_date": {
+        "year": "1670"
+      },
+      "text": {
+        "headline": "Zipporah Potter Atkins",
+        "text": "<p>According to historical records, Zipporah Potter Atkins was able to purchase her property through an inheritance she received from her father.[4] Her property was situated on the edge of Boston's North End, near a mill pond which flowed into Boston Harbor.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://www.history.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTg3Mjk3Mjg0ODAxNzAxNzcz/emancipation-colonization-gettyimages-529323673.webp",
         "caption": "Resettlement of formerly enslaved people to Haiti",
         "credit": "<a href=\"https://www.history.com/news/abraham-lincoln-black-resettlement-haiti\">History Channel</a>"
