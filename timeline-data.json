@@ -124,6 +124,27 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Plessy_v._Ferguson",
+        "caption": "Plessy v. Ferguson",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Plessy_v._Ferguson\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "4",
+        "day": "13",
+        "year": "1896"
+      },
+      "end_date": {
+        "month": "5",
+        "day": "18",
+        "year": "1896"
+      },
+      "text": {
+        "headline": "Plessy v. Ferguson",
+        "text": "<p>A landmark U.S. Supreme Court decision in which the Court ruled that racial segregation laws did not violate the U.S. Constitution as long as the facilities for each race were equal in quality, a doctrine that came to be known as <em>separate but equal</em> The decision legitimized the many state laws re-establishing racial segregation that had been passed in the American South after the end of the Reconstruction era (1865–1877).</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia",
         "caption": "Racial conflict in Forsyth County, Georgia",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia\">Wikipedia</a>"
