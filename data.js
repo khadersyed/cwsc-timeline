@@ -1,7 +1,6 @@
 // http://timeline.knightlab.com/docs/options.html
 var additionalOptions = {
-    start_at_end: true,
-    default_bg_color: {r:100, g:255, b:150},
+    font: "opensans-gentiumbook",
     timenav_height: 250
 };
 
