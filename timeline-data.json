@@ -13,6 +13,22 @@
   "events": [
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Dum_Diversas",
+        "caption": "Dum Diversas",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Dum_Diversas\">Wikipedia</a>"
+      },
+      "start_date": {
+        "month": "6",
+        "day": "18",
+        "year": "1452"
+      },
+      "text": {
+        "headline": "Dum Diversas",
+        "text": "<p>The expansion of the faith was inextricably intertwined with military glory and economic profit. Because of this it is idle to ask, as is frequently done, whether the Portuguese pioneers and Castilian conquistadores were motivated more by greed or by religious zeal. In the Hispanic crusading expansionist ideology, the two went together.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://en.wikipedia.org/wiki/Romanus_Pontifex",
         "caption": "Romanus Pontifex",
         "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
