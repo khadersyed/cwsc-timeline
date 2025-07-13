@@ -42,7 +42,20 @@ export default function TimelineEvent({ event, index, isFocused, onClick, onFocu
           {formattedDate}
         </div>
 
-
+        {/* Image */}
+        {event.media.image && (
+          <div className="mb-3">
+            <img
+              src={event.media.image}
+              alt={event.media.caption}
+              className="w-full h-32 object-cover rounded-md"
+              onError={(e) => {
+                // Hide image on error
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+          </div>
+        )}
 
         {/* Headline */}
         <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2">

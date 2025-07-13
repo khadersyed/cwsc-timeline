@@ -15,7 +15,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Dum_Diversas",
         "caption": "Dum Diversas",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Dum_Diversas\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Dum_Diversas\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Paus_Nicolaas_V_door_Peter_Paul_Rubens.jpg/500px-Paus_Nicolaas_V_door_Peter_Paul_Rubens.jpg"
       },
       "start_date": {
         "month": "6",
@@ -28,10 +29,11 @@
       }
     },
     {
-      "media": {
+            "media": {
         "url": "https://en.wikipedia.org/wiki/Romanus_Pontifex",
         "caption": "Romanus Pontifex",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Romanus_Pontifex\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Romanus_Pontifex\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Henry_the_Navigator1.jpg/500px-Henry_the_Navigator1.jpg"
       },
       "start_date": {
         "month": "1",
@@ -47,7 +49,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/First_Africans_in_Virginia",
         "caption": "First Africans in Virginia",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Leading_Facts_of_American_History_%281910%29_-_The_First_Negro_Slaves_Brought_to_Virginia.png/500px-The_Leading_Facts_of_American_History_%281910%29_-_The_First_Negro_Slaves_Brought_to_Virginia.png"
       },
       "start_date": {
         "month": "8",
@@ -62,7 +65,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Zipporah_Potter_Atkins",
         "caption": "Zipporah Potter Atkins",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Zipporah_Potter_Atkins\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Zipporah_Potter_Atkins\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/ZA_ZipporahPotterAtkins_initials.jpg/500px-ZA_ZipporahPotterAtkins_initials.jpg"
       },
       "start_date": {
         "year": "1670"
@@ -74,9 +78,42 @@
     },
     {
       "media": {
+        "url": "https://en.wikipedia.org/wiki/Stono_Rebellion",
+        "caption": "Stono Rebellion",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Stono_Rebellion\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Stono_Rebellion_site_-_Jan_23_2013.jpg"
+      },
+      "start_date": {
+        "month": "9",
+        "day": "9",
+        "year": "1739"
+      },
+      "text": {
+        "headline": "Stono Rebellion",
+        "text": "<p>The Stono Rebellion was a slave revolt that began on September 9, 1739, in the colony of South Carolina. It was the largest slave uprising in the British mainland colonies prior to the American Revolution. The rebellion was led by an enslaved man named Jemmy, who gathered about 20 enslaved people and marched south toward Spanish Florida, where they hoped to gain their freedom. The rebels killed about 25 white people before being defeated by the South Carolina militia.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "https://en.wikipedia.org/wiki/Pointe_Coup%C3%A9e_Slave_Conspiracy_of_1795",
+        "caption": "Pointe Coupée Slave Conspiracy of 1795",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Pointe_Coup%C3%A9e_Slave_Conspiracy_of_1795\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/1796_blackriverOuachita.jpg"
+      },
+      "start_date": {
+        "year": "1795"
+      },
+      "text": {
+        "headline": "Pointe Coupée Slave Conspiracy of 1795",
+        "text": "<p>The Pointe Coupée Slave Conspiracy of 1795 was a slave rebellion plot that was discovered before it could be executed. The conspiracy involved enslaved people in the Pointe Coupée Parish area of Louisiana who planned to revolt against their enslavers. The plot was uncovered by Spanish authorities, and 23 enslaved people were executed for their involvement in the conspiracy. This event occurred during the Spanish colonial period of Louisiana and demonstrated the ongoing resistance of enslaved people against the institution of slavery.</p>"
+      }
+    },
+    {
+      "media": {
         "url": "https://www.history.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTg3Mjk3Mjg0ODAxNzAxNzcz/emancipation-colonization-gettyimages-529323673.webp",
         "caption": "Resettlement of formerly enslaved people to Haiti",
-        "credit": "<a href=\"https://www.history.com/news/abraham-lincoln-black-resettlement-haiti\">History Channel</a>"
+        "credit": "<a href=\"https://www.history.com/news/abraham-lincoln-black-resettlement-haiti\">History Channel</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/500px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
       },
       "start_date": {
         "month": "12",
@@ -92,7 +129,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Emancipation_Proclamation",
         "caption": "Emancipation Proclamation",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Emancipation_Proclamation\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Emancipation_Proclamation\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Hand_colored_Emancipation_The_Past_and_the_Future_by_Thomas_Nast.jpg/500px-Hand_colored_Emancipation_The_Past_and_the_Future_by_Thomas_Nast.jpg"
       },
       "start_date": {
         "month": "1",
@@ -108,7 +146,8 @@
       "media": {
         "url": "https://www.aol.com/news/black-1870-pins-worn-congress-230646304.html",
         "caption": "Henry Truman",
-        "credit": "<a href=\"https://www.aol.com/news/black-1870-pins-worn-congress-230646304.html\">AOL</a>"
+        "credit": "<a href=\"https://www.aol.com/news/black-1870-pins-worn-congress-230646304.html\">AOL</a>",
+        "image": "https://s.yimg.com/ny/api/res/1.2/zjYo3Z3Vo.mRvnb7rxGIyg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2023-02/15ddae90-a72d-11ed-b6fd-11dbf4266bfa"
       },
       "start_date": {
         "month": "3",
@@ -124,7 +163,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)",
         "caption": "Julie Hayden",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Julie_Hayden_(teacher)\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Miss_Julie_Hayden_Harper%27s_Weekly_October_3_1874%2C_813.jpg/500px-Miss_Julie_Hayden_Harper%27s_Weekly_October_3_1874%2C_813.jpg"
       },
       "start_date": {
         "month": "8",
@@ -137,10 +177,11 @@
       }
     },
     {
-      "media": {
+            "media": {
         "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
         "caption": "Statue of Liberty",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Statue_of_Liberty\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Statue_of_Liberty\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Front_view_of_Statue_of_Liberty_with_pedestal_and_base_2024.jpg/500px-Front_view_of_Statue_of_Liberty_with_pedestal_and_base_2024.jpg"
       },
       "start_date": {
         "month": "10",
@@ -156,7 +197,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Plessy_v._Ferguson",
         "caption": "Plessy v. Ferguson",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Plessy_v._Ferguson\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Plessy_v._Ferguson\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Portrait_of_Henry_Billings_Brown.jpg/500px-Portrait_of_Henry_Billings_Brown.jpg"
       },
       "start_date": {
         "month": "4",
@@ -177,7 +219,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia",
         "caption": "Racial conflict in Forsyth County, Georgia",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/1912_racial_conflict_in_Forsyth_County,_Georgia\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Forsyth_County_headline_of_10_September_1912.png/500px-Forsyth_County_headline_of_10_September_1912.png"
       },
       "start_date": {
         "month": "9",
@@ -192,7 +235,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
         "caption": "Tulsa Race Massacre",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Tulsa_race_massacre\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Tulsa_race_massacre\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tulsa_Aftermath.jpg/500px-Tulsa_Aftermath.jpg"
       },
       "start_date": {
         "month": "5",
@@ -213,7 +257,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith",
         "caption": "Lynching of Thomas Shipp and Abram Smith",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Lynching_of_two_African_American_men_in_Marion_Indiana_on_7_August_1930_detail%2C_%22Marion%2C_Ind%2C_Aug._7%2C_1930%22_%28NBY_3117%29_%28cropped%29.jpg/500px-Lynching_of_two_African_American_men_in_Marion_Indiana_on_7_August_1930_detail%2C_%22Marion%2C_Ind%2C_Aug._7%2C_1930%22_%28NBY_3117%29_%28cropped%29.jpg"
       },
       "start_date": {
         "month": "8",
@@ -229,7 +274,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/Montgomery_bus_boycott",
         "caption": "Montgomery bus boycott",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Montgomery_bus_boycott\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Montgomery_bus_boycott\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Rosa_Parks_being_fingerprinted_by_Deputy_Sheriff_D.H._Lackey_after_being_arrested_on_February_22%2C_1956%2C_during_the_Montgomery_bus_boycott.jpg/500px-Rosa_Parks_being_fingerprinted_by_Deputy_Sheriff_D.H._Lackey_after_being_arrested_on_February_22%2C_1956%2C_during_the_Montgomery_bus_boycott.jpg"
       },
       "start_date": {
         "month": "12",
