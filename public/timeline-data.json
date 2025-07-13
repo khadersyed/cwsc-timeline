@@ -49,7 +49,8 @@
       "media": {
         "url": "https://en.wikipedia.org/wiki/First_Africans_in_Virginia",
         "caption": "First Africans in Virginia",
-        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>"
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Main_Page\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Leading_Facts_of_American_History_%281910%29_-_The_First_Negro_Slaves_Brought_to_Virginia.png/500px-The_Leading_Facts_of_American_History_%281910%29_-_The_First_Negro_Slaves_Brought_to_Virginia.png"
       },
       "start_date": {
         "month": "8",
@@ -90,6 +91,21 @@
       "text": {
         "headline": "Stono Rebellion",
         "text": "<p>The Stono Rebellion was a slave revolt that began on September 9, 1739, in the colony of South Carolina. It was the largest slave uprising in the British mainland colonies prior to the American Revolution. The rebellion was led by an enslaved man named Jemmy, who gathered about 20 enslaved people and marched south toward Spanish Florida, where they hoped to gain their freedom. The rebels killed about 25 white people before being defeated by the South Carolina militia.</p>"
+      }
+    },
+    {
+      "media": {
+        "url": "https://en.wikipedia.org/wiki/Pointe_Coup%C3%A9e_Slave_Conspiracy_of_1795",
+        "caption": "Pointe Coupée Slave Conspiracy of 1795",
+        "credit": "<a href=\"https://en.wikipedia.org/wiki/Pointe_Coup%C3%A9e_Slave_Conspiracy_of_1795\">Wikipedia</a>",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/1796_blackriverOuachita.jpg"
+      },
+      "start_date": {
+        "year": "1795"
+      },
+      "text": {
+        "headline": "Pointe Coupée Slave Conspiracy of 1795",
+        "text": "<p>The Pointe Coupée Slave Conspiracy of 1795 was a slave rebellion plot that was discovered before it could be executed. The conspiracy involved enslaved people in the Pointe Coupée Parish area of Louisiana who planned to revolt against their enslavers. The plot was uncovered by Spanish authorities, and 23 enslaved people were executed for their involvement in the conspiracy. This event occurred during the Spanish colonial period of Louisiana and demonstrated the ongoing resistance of enslaved people against the institution of slavery.</p>"
       }
     },
     {
