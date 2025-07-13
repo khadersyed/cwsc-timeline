@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState, useEffect, ReactElement } from 'react';
 import { motion } from 'framer-motion';
 import { TimelineEvent as TimelineEventType, Era } from '@/lib/types';
 import TimelineEventComponent from './TimelineEvent';
@@ -13,10 +13,78 @@ interface TimelineProps {
   initialEras: Era[];
 }
 
-export default function Timeline({ initialEvents, initialEras }: TimelineProps) {
+export default function Timeline({ initialEvents, initialEras }: TimelineProps): ReactElement {
   const [events] = useState<TimelineEventType[]>(initialEvents);
   const [eras] = useState<Era[]>(initialEras);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEventType | null>(null);
+  const [focusedEventIndex, setFocusedEventIndex] = useState<number>(-1);
+  const [isToggling, setIsToggling] = useState<boolean>(false);
+
+  // Function to scroll to era
+  const scrollToEra = (era: Era) => {
+    // Find the first event of this era
+    const firstEventIndex = events.findIndex(event => {
+      const eventYear = event.start_date.year;
+      return eventYear >= era.startYear && eventYear <= era.endYear;
+    });
+    
+    if (firstEventIndex !== -1) {
+      setFocusedEventIndex(firstEventIndex);
+      const eventElement = document.querySelector(`[data-event-index="${firstEventIndex}"]`);
+      if (eventElement) {
+        eventElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+  };
+
+  // Keyboard navigation handlers
+  const handleKeyDown = (e: KeyboardEvent) => {
+    switch (e.key) {
+      case 'ArrowLeft':
+        e.preventDefault();
+        setFocusedEventIndex((prev: number) => Math.max(0, prev - 1));
+        break;
+      case 'ArrowRight':
+        e.preventDefault();
+        setFocusedEventIndex((prev: number) => Math.min(events.length - 1, prev + 1));
+        break;
+      case ' ':
+        e.preventDefault();
+        // If modal is open, close it
+        if (selectedEvent) {
+          setSelectedEvent(null);
+          return;
+        }
+        
+        // If no focused event, don't do anything
+        if (focusedEventIndex < 0 || focusedEventIndex >= events.length) {
+          return;
+        }
+        
+        // Open modal for focused event
+        const focusedEvent = events[focusedEventIndex];
+        setIsToggling(true);
+        setTimeout(() => setIsToggling(false), 150);
+        setSelectedEvent(focusedEvent);
+        break;
+    }
+  };
+
+  // Add keyboard event listener
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [focusedEventIndex, events.length, selectedEvent]);
+
+  // Scroll to focused event
+  useEffect(() => {
+    if (focusedEventIndex >= 0) {
+      const eventElement = document.querySelector(`[data-event-index="${focusedEventIndex}"]`);
+      if (eventElement) {
+        eventElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+  }, [focusedEventIndex]);
 
 
 
@@ -34,12 +102,36 @@ export default function Timeline({ initialEvents, initialEras }: TimelineProps) 
 
       {/* Timeline Container */}
       <div className="relative">
+        {/* Keyboard Instructions */}
+        <div className="bg-blue-50 border-b border-blue-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div className="text-sm text-blue-700 flex items-center justify-center space-x-6">
+              <span className="flex items-center">
+                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+                Navigate
+              </span>
+              <span>•</span>
+              <span className="flex items-center">
+                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                Spacebar to toggle
+              </span>
+            </div>
+          </div>
+        </div>
+
         {/* Era Markers */}
         <div className="sticky top-0 z-10 bg-white border-b">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex space-x-8">
               {eras.map((era) => (
-                <EraMarker key={era.name} era={era} />
+                <EraMarker key={era.name} era={era} onClick={() => scrollToEra(era)} />
               ))}
             </div>
           </div>
@@ -54,7 +146,9 @@ export default function Timeline({ initialEvents, initialEras }: TimelineProps) 
                   key={`${event.text.headline}-${index}`}
                   event={event}
                   index={index}
+                  isFocused={index === focusedEventIndex}
                   onClick={() => setSelectedEvent(event)}
+                  onFocus={() => setFocusedEventIndex(index)}
                 />
               ))}
             </div>
@@ -68,7 +162,8 @@ export default function Timeline({ initialEvents, initialEras }: TimelineProps) 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 backdrop-blur-sm"
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}
           onClick={() => setSelectedEvent(null)}
         >
           <motion.div

@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Historical Timeline: Christianity, Capitalism, and White Supremacy
 
-## Getting Started
+A horizontal timeline website documenting historical events from 1452-2021, focusing on the intersections of Christianity, Capitalism, and White Supremacy. Built with Next.js 15, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
+- **Horizontal Timeline**: Smooth scrolling timeline with era-based navigation
+- **Rich Event Details**: Interactive modals with full event information
+- **Keyboard Navigation**: Full keyboard accessibility with arrow keys and spacebar
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **Modern UI**: Clean, minimal design with smooth animations
+- **Server-Side Rendering**: Fast loading with optimized performance
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.3.5 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Data**: JSON-based timeline data with server-side processing
+
+## 🎯 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- Yarn (recommended) or npm
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd cwsc-timeline
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+yarn install
+# or
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+yarn dev
+# or
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 🎮 Usage
 
-To learn more about Next.js, take a look at the following resources:
+### Navigation
+- **Arrow Keys**: Navigate between timeline events
+- **Spacebar**: Toggle modal open/close
+- **Mouse**: Click on events to view details
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Timeline Features
+- **Era Navigation**: Jump between different historical periods
+- **Event Cards**: View event summaries with dates and headlines
+- **Detailed Modals**: Full event information with rich text content
+- **Responsive Layout**: Optimized for all screen sizes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```
+src/
+├── app/
+│   ├── page.tsx          # Main timeline page
+│   ├── layout.tsx        # App layout
+│   └── globals.css       # Global styles
+├── components/
+│   └── Timeline/
+│       ├── Timeline.tsx      # Main timeline component
+│       ├── TimelineEvent.tsx # Individual event cards
+│       └── EraMarker.tsx     # Era navigation markers
+├── lib/
+│   ├── data.ts           # Data processing utilities
+│   └── types.ts          # TypeScript type definitions
+└── public/
+    └── timeline-data.json # Timeline event data
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📊 Data Format
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The timeline uses a structured JSON format with events containing:
+- **Dates**: Start and end dates with year precision
+- **Content**: Headlines and detailed text descriptions
+- **Media**: Associated links and resources
+- **Metadata**: Credits and source information
+
+## 🎨 Design Principles
+
+- **Minimalism**: Clean, uncluttered interface
+- **Accessibility**: Full keyboard navigation and ARIA support
+- **Performance**: Optimized loading and smooth animations
+- **Responsiveness**: Seamless experience across all devices
+
+## 🚧 Development Status
+
+### ✅ Completed
+- Core timeline implementation
+- Keyboard navigation
+- Modal interactions
+- Responsive design
+- Data processing
+
+### 🔄 In Progress
+- Enhanced scrolling animations
+- Loading states
+- Mobile optimizations
+
+### 📋 Planned
+- Search functionality
+- Filtering by time periods
+- Image integration
+- Export features
+
+## 🤝 Contributing
+
+This is an educational project focused on historical documentation. Contributions are welcome for:
+- Data accuracy improvements
+- UI/UX enhancements
+- Performance optimizations
+- Accessibility improvements
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Historical research and data compilation
+- Next.js and React communities
+- Open source contributors
+
+---
+
+**Note**: This timeline is designed for educational purposes to document historical intersections between Christianity, Capitalism, and White Supremacy from 1452-2021.
