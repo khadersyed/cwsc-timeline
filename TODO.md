@@ -43,27 +43,27 @@ Building a horizontal timeline website using Next.js to document events from 145
 
 ## 🔄 TODO FEATURES
 
-### Phase 2: Enhanced UX (In Progress)
-- [ ] **Smooth scrolling animations** and transitions
-- [ ] **Loading states** and skeleton screens
-- [ ] **Mobile optimization** improvements
-- [ ] **Accessibility improvements** (screen reader support)
-
-### Phase 3: Advanced Features
-- [ ] **Search functionality** - Search events by keyword
-- [ ] **Filter by time periods** - Filter events by specific eras
-- [ ] **Share functionality** - Share specific events or entire timeline
-- [ ] **Export options** - Generate PDF or printable version
-- [ ] **Bookmarking** - Save favorite events
-
-### Phase 4: Content Enhancement
+### Phase 3: Content Enhancement (Next)
 - [ ] **Image integration** - Add proper image handling with fallbacks
 - [ ] **Related events** - Show connections between events
 - [ ] **Timeline comparison** - Compare different time periods
 - [ ] **Data visualization** - Charts showing event frequency
 - [ ] **User annotations** - Allow users to add notes
 
-### Phase 5: Performance & SEO
+### Phase 4: Advanced Features
+- [ ] **Search functionality** - Search events by keyword
+- [ ] **Filter by time periods** - Filter events by specific eras
+- [ ] **Share functionality** - Share specific events or entire timeline
+- [ ] **Export options** - Generate PDF or printable version
+- [ ] **Bookmarking** - Save favorite events
+
+### Phase 5: Enhanced UX
+- [ ] **Smooth scrolling animations** and transitions
+- [ ] **Loading states** and skeleton screens
+- [ ] **Mobile optimization** improvements
+- [ ] **Accessibility improvements** (screen reader support)
+
+### Phase 6: Performance & SEO
 - [ ] **SEO optimization** - Meta tags, structured data
 - [ ] **Performance monitoring** - Analytics and metrics
 - [ ] **Caching strategy** - Implement proper caching
@@ -117,4 +117,4 @@ The timeline application is fully functional with:
 - [x] Responsive design for all devices
 - [x] Keyboard navigation and accessibility
 
-**Ready to continue with Phase 2 features!** 
+**Ready to continue with Phase 3 features!** 
