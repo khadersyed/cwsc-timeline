@@ -20,6 +20,23 @@ export default function Timeline({ initialEvents, initialEras }: TimelineProps):
   const [focusedEventIndex, setFocusedEventIndex] = useState<number>(-1);
   const [isToggling, setIsToggling] = useState<boolean>(false);
 
+  // Function to scroll to era
+  const scrollToEra = (era: Era) => {
+    // Find the first event of this era
+    const firstEventIndex = events.findIndex(event => {
+      const eventYear = event.start_date.year;
+      return eventYear >= era.startYear && eventYear <= era.endYear;
+    });
+    
+    if (firstEventIndex !== -1) {
+      setFocusedEventIndex(firstEventIndex);
+      const eventElement = document.querySelector(`[data-event-index="${firstEventIndex}"]`);
+      if (eventElement) {
+        eventElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+    }
+  };
+
   // Keyboard navigation handlers
   const handleKeyDown = (e: KeyboardEvent) => {
     switch (e.key) {
@@ -114,7 +131,7 @@ export default function Timeline({ initialEvents, initialEras }: TimelineProps):
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex space-x-8">
               {eras.map((era) => (
-                <EraMarker key={era.name} era={era} />
+                <EraMarker key={era.name} era={era} onClick={() => scrollToEra(era)} />
               ))}
             </div>
           </div>
