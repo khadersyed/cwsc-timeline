@@ -195,7 +195,23 @@ export default function Timeline({ initialEvents, initialEras }: TimelineProps):
                 </span>
               </div>
 
-
+              {/* Image in modal */}
+              {selectedEvent.media.image && (
+                <div className="mb-6">
+                  <img
+                    src={selectedEvent.media.image}
+                    alt={selectedEvent.media.caption}
+                    className="w-full h-48 object-cover rounded-lg"
+                    onError={(e) => {
+                      // Hide image on error
+                      e.currentTarget.style.display = 'none';
+                    }}
+                  />
+                  <p className="text-sm text-gray-600 mt-2 italic">
+                    {selectedEvent.media.caption}
+                  </p>
+                </div>
+              )}
 
               <div 
                 className="prose max-w-none"

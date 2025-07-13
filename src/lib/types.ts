@@ -2,6 +2,7 @@ export interface TimelineMedia {
   url: string;
   caption: string;
   credit: string;
+  image?: string; // Optional direct image URL
 }
 
 export interface TimelineDate {
