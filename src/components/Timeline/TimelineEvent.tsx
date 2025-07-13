@@ -9,10 +9,12 @@ import { formatDate } from '@/lib/data';
 interface TimelineEventProps {
   event: TimelineEventType;
   index: number;
+  isFocused: boolean;
   onClick: () => void;
+  onFocus: () => void;
 }
 
-export default function TimelineEvent({ event, index, onClick }: TimelineEventProps) {
+export default function TimelineEvent({ event, index, isFocused, onClick, onFocus }: TimelineEventProps) {
   const formattedDate = formatDate(event.start_date);
 
   return (
@@ -23,8 +25,17 @@ export default function TimelineEvent({ event, index, onClick }: TimelineEventPr
       className="flex-shrink-0 w-80"
     >
       <div 
-        className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer p-6 border border-gray-200"
+        className={`bg-white rounded-lg shadow-md hover:shadow-lg transition-all cursor-pointer p-6 border ${
+          isFocused 
+            ? 'border-blue-500 shadow-lg ring-2 ring-blue-200' 
+            : 'border-gray-200'
+        }`}
         onClick={onClick}
+        onFocus={onFocus}
+        tabIndex={0}
+        role="button"
+        aria-label={`Timeline event: ${event.text.headline}`}
+        data-event-index={index}
       >
         {/* Date */}
         <div className="text-sm text-gray-500 mb-3">
