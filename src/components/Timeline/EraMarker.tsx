@@ -1,5 +1,6 @@
 'use client';
 
+import React, { ReactElement } from 'react';
 import { Era } from '@/lib/types';
 
 interface EraMarkerProps {
